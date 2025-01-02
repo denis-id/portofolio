@@ -1,0 +1,1185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio - Denis Arya Buana</title>
+
+    <!-- font website -->
+	<link rel="icon" type="images/png" href="assets/images/denis-logo.png">
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- bootstrap css cdn link  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous"/>
+
+    <!-- custom css file -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/styles.css" data-precedence="next"/>
+    <link rel="preload" as="script" fetchPriority="low" href="js/webpack-1.js"/>
+
+    <!-- google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- bootstrap icon cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css"
+    />
+
+    <!-- for adding animation to website we have use AOS library 
+    AOS Library css file cdn link -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- jquery cdn link  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  </head>
+  <body>
+    <!-- navbar starts -->
+    <nav id="navbar-top" class="navbar navbar-expand-lg navbar-light bg-white sticky-navbar">
+      <div class="container-fluid px-5">
+        <a class="navbar-brand fw-bold fs-2" href="#" style="color: #3f396d">Portfolio</a>
+        <button
+          class="nav-menu d-md-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <i class="bi bi-menu-button-fill"></i>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-center"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav gap-4" style="font-size: 1.1rem">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#" style="font-weight: bold;"><i class="fa-solid fa-house-flag"></i> Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#service" style="font-weight: bold;"><i class="fa-solid fa-list-check"></i> Service</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about" style="font-weight: bold;"><i class="fa-solid fa-briefcase"></i> About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio" style="font-weight: bold;"><i class="fa-solid fa-address-card"></i> Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonial" style="font-weight: bold;"><i class="fa-regular fa-comment"></i> Testimonials</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#blog" style="font-weight: bold;"><i class="fa-solid fa-blog"></i> Background</a>
+            </li>
+          </ul>
+        </div>
+        <button class="c-btn ms-4 py-2 px-4 rounded-pill d-none d-md-block" style="background-color: rgb(0, 174, 255);"><a href="https://www.linkedin.com/in/denis-arya-buana/" target="_blank"><i class="fa-brands fa-linkedin"></i> Linkedin</a></button>
+      </div>
+    </nav>
+    <!-- navbar ends here -->
+
+ <!-- sticky wa element -->
+ <div class="fixed-element" role="button">
+  <a href="https://wa.me/6282340987518/?text=Portfolio Denis Arya Buana" target="_blank" rel="noopener noreferrer">
+      <i class="fa-brands fa-whatsapp fa-2xl" style="color: #ffffff" fetchpriority="high"></i>
+  </a>
+</div>
+<!-- sticky wa end -->
+
+    <!-- home section starts  -->
+    <section class="home pt-5 pb-5" id="home">
+      <div class="row justify-content-evenly align-middle">
+        <!-- here data-aos is used for adding aos animation  -->
+        <div class="col-10 col-md-6 text-center text-md-start" data-aos="slide-right">
+          <h2 style="color: #3f396d">
+            Holla👋<br />
+            <span class="c-orange"> I'm Denis</span>
+          </h2>
+          <p class="text-muted">
+            Let me Introduce myself, i'm a Fullstack Web Developer based in Bali, who is able to remote work
+            in creating websites from design until create Restfull API, Software and Web Application to the highest standards, I've a passion for creating beautiful and user-friendly web applications. I'm a quick learner, and I'm always looking for new challenges and opportunities to grow to be a skilled digital talents. Hope we can discuss more, see you soon.👋
+          </p>
+          <button class="c-btn h-btn mt-3 py-3 px-5 rounded-pill"> 
+            <a href="https://api.whatsapp.com/send/?phone=6282340987518&amp;text&amp;type=phone_number&amp;app_absent=0" style="text-decoration: none;color: #fff;">🚀Hire Me</a> 
+          </button>
+          <button class="c-btn h-btn mt-3 py-3 px-5 rounded-pill">
+            <!-- here download attribute is used for adding download functionality to button  -->
+            <i class="fa-solid fa-download" style="color: #005eff;"></i> <a href="RESUME_DENIS.pdf" download="DenisCV" style="text-decoration: none;color: #fff;">Download CV</a>
+          </button>
+          <a href="" class="link ms-4 d-none">See My Work</a>
+        </div>
+        <div class="col-10 col-md-4 d-none d-md-block">
+          <img src="assets/images/hero.png" class="img-fluid" alt=""/>
+        </div>
+      </div>
+    </section>
+    <!-- home section ends here -->
+
+    <!-- expertise section starts -->
+    <section class="expertise mt-5" id="service">
+      <div class="heading text-center">
+        <small>My Expertise</small>
+        <h3>
+          Provide Wide Range of <br />
+          Digital Services
+        </h3>
+      </div>
+      <div class="row justify-content-evenly mt-5">
+        <div class="col-10 col-md-4" data-aos="fade-up">
+          <div class="service-card">
+            <div class="img">
+              <img
+                src="assets/images/service-icon1.png"
+                class="w-25 img-fluid img"
+                alt=""
+              />
+            </div>
+            <div class="content mt-3">
+              <h4>Web Design</h4>
+              <p class="text-muted">
+                I can create websites quickly and in real time with an attractive and user-friendly appearance.
+              </p>
+              <a href="" class="link">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-10" data-aos="fade-up">
+          <div class="service-card">
+            <div class="img">
+              <img
+                src="assets/images/service-icon2.png"
+                class="w-25 img-fluid img"
+                alt=""
+              />
+            </div>
+            <div class="content mt-3">
+              <h4>Web Development</h4>
+              <p class="text-muted">
+                I can develop websites in terms of functionality, content development and also SEO.
+              </p>
+              <a href="" class="link">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-10" data-aos="fade-up">
+          <div class="service-card">
+            <div class="img">
+              <img
+                src="assets/images/service-icon3.png"
+                class="w-25 img-fluid img"
+                alt=""
+              />
+            </div>
+            <div class="content mt-3">
+              <h4>Debugging</h4>
+              <p class="text-muted">
+                I can identify and fix bugs on the website, so that the website becomes more stable and error-free.
+              </p>
+              <a href="" class="link">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- expertise section ends here -->
+
+    <!-- skill section starts -->
+    <section class="skill mt-5 py-5" id="about">
+      <div class="row justify-content-evenly">
+        <div class="col-10 col-md-5 skill-with-progress" data-aos="slide-right">
+          <div class="row justify-content-evenly">
+            <div class="col-10 col-md-6">
+              <div class="progress-card ms-3 ms-md-0">
+                <div class="circular-progress html-css">
+                  <span class="progress-value html-progress">0%</span>
+                </div>
+                <br />
+                <span class="text">HTML & CSS</span>
+              </div>
+            </div>
+            <div class="col-10 col-md-6 mt-4 mt-md-0">
+              <div class="progress-card ms-3 ms-md-0">
+                <div class="circular-progress javascript">
+                  <span class="progress-value javascript-progress">0%</span>
+                </div>
+                <br />
+                <span class="text">JavaScript</span>
+              </div>
+            </div>
+          </div>
+          <div class="row justify-content-evenly mt-4">
+            <div class="col-10 col-md-6">
+              <div class="progress-card ms-3 ms-md-0">
+                <div class="circular-progress php">
+                  <span class="progress-value php-progress">0%</span>
+                </div>
+                <br />
+                <span class="text">PHP</span>
+              </div>
+            </div>
+            <div class="col-10 col-md-6 mt-4 mt-md-0">
+              <div class="progress-card ms-3  ms-md-0">
+                <div class="circular-progress reactjs">
+                  <span class="progress-value reactjs-progress">0%</span>
+                </div>
+                <br>
+                <span class="text">ReactJS</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-10 col-md-5 skill-detail" data-aos="slide-left">
+          <div class="heading mt-5 mt-md-3">
+            <small>My Technical Skills</small>
+            <h3>Beautiful & Unique Digital Experiences</h3>
+            <p class="text-muted">
+              An energetic and imaginative young Web Developer who is able to workalongside other talented IT professionals in creating websites andsoftware to the very highest standards, with a passion for learning newadvance technologies and solving complex problems.
+            </p>
+            <p class="text-muted">
+              I’m looking for an entry level position with an exciting company that wants to attracttalented people.
+            </p>
+            <button class="c-btn h-btn mt-3 py-3 px-5 rounded-pill">
+              <!-- here download attribute is used for adding download functionality to button  -->
+              <i class="fa-solid fa-file-pdf"></i> <a href="RESUME_DENIS.pdf" download="DenisCV" style="text-decoration: none;color: #fff;">Download CV</a>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- skill section end here -->
+
+    <!-- portfolio section starts here -->
+    <section class="portfolio" id="portfolio">
+      <div class="heading text-center pt-5">
+        <small>Creative Work</small>
+        <h3 style="color: white;">Check Out My Portfolio <i class="fa-solid fa-paperclip"></i></h3>
+      </div>
+
+      <div id="myBtnContainer" class="text-center mt-4">
+        <!-- here we will create custom attribute using data- for filtering -->
+        <button class="filter-item" data-filter="all" style="color: white;"><i class="fa-solid fa-sliders"></i> All</button>
+        <button class="filter-item" data-filter="webapp" style="color: white;"><i class="fa-brands fa-uncharted"></i> Software</button>
+        <button class="filter-item" data-filter="website" style="color: white;"><i class="fa-brands fa-shopify"></i> E-commerce</button>
+        <button class="filter-item" data-filter="brand" style="color: white;"><i class="fa-solid fa-building-user"></i> Landing Page</button>
+        <button class="filter-item" data-filter="brand" style="color: white;"><i class="fa-solid fa-gamepad"></i> games</button>
+      </div>
+      <div id="project" class="min-h-screen pt-32">
+        <div class="w-full px-4 lg:px-0 max-w-7xl mx-auto h-full">
+        <div>
+        <div class="text-center pb-2 lg:text-4xl text-xl text-slate-200" style="font-weight: bold;">
+                My Projects <i class="fa-regular fa-circle-check"></i>
+        </div>
+        <p style="color: white;text-align: center;">These are my client projects, there are several project to show you.</p>
+        <div class="w-full px-4 lg:px-0 max-w-7xl mx-auto h-full">
+        <div class="border-b border-b-slate-50/10 mt-3  mx-auto ">
+        </div>
+        </div>
+        </div>
+        <div class="mt-10 grid lg:grid-cols-3 grid-cols-2 gap-4">
+        <div class="bg-main-card border p-1">
+        <img alt="Aplikasi Sewa Mobil" loading="lazy" width="500" height="500" decoding="async" data-nimg="1" style="color:transparent" src="assets/image/sewa-mobil.webp"/>
+        <div class="p-3 grid gap-3">
+        <h1 class="lg:text-xl text-xs font-light" style="color:white">
+                Aplikasi Sewa Mobil
+        </h1>
+        <a href="sewa_mobil/RentalX_20-07-24-main/index.html" target="_blank">
+        <button class="inline-flex items-center justify-center whitespace-nowrap rounded-md font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 border border-input bg-background shadow-sm hover:bg-accent hover:text-accent-foreground h-9 px-4 py-2 text-xs lg:text-base">
+                VISIT
+        </button>
+        </a>
+        </div>
+        </div>
+        <div class="bg-main-card border p-1">
+        <img alt="Rupbasan Kemenkumham Bali" loading="lazy" width="500" height="500" decoding="async" data-nimg="1" style="color:transparent" src="assets/image/rupbasan.webp"/>
+        <div class="p-3 grid gap-3">
+        <h1 class="lg:text-xl text-xs font-light" style="color:white">
+        Rupbasan Kemenkumham Bali
+        </h1>
+        <a href="https://www.rupbasandenpasar.com/" target="_blank">
+        <button class="inline-flex items-center justify-center whitespace-nowrap rounded-md font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 border border-input bg-background shadow-sm hover:bg-accent hover:text-accent-foreground h-9 px-4 py-2 text-xs lg:text-base">
+        VISIT
+        </button>
+        </a>
+        </div>
+        </div>
+        <div class="bg-main-card border p-1">
+        <img alt="CMS Fair Indonesia" loading="lazy" width="500" height="500" decoding="async" data-nimg="1" style="color:transparent" src="assets/image/image (2).webp"/>
+        <div class="p-3 grid gap-3">
+        <h1 class="lg:text-xl text-xs font-light" style="color:white">
+        CMS Fair Indonesia
+        </h1>
+        <a href="https://www.fair-indonesia.com" target="_blank">
+        <button class="inline-flex items-center justify-center whitespace-nowrap rounded-md font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 border border-input bg-background shadow-sm hover:bg-accent hover:text-accent-foreground h-9 px-4 py-2 text-xs lg:text-base">
+        VISIT
+        </button>
+        </a>
+        </div>
+        </div>
+        <div class="bg-main-card border p-1">
+        <img alt="Katering landing page" loading="lazy" width="500" height="500" decoding="async" data-nimg="1" style="color:transparent" src="assets/image/katering-fadila.webp"/>
+        <div class="p-3 grid gap-3">
+        <h1 class="lg:text-xl text-xs font-light" style="color:white">
+        Food Order Landing Page
+        </h1>
+        <a href="http://aldiniananda.github.io/dapur-dila/" target="_blank">
+        <button class="inline-flex items-center justify-center whitespace-nowrap rounded-md font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 border border-input bg-background shadow-sm hover:bg-accent hover:text-accent-foreground h-9 px-4 py-2 text-xs lg:text-base">
+        VISIT
+        </button>
+        </a>
+        </div>
+        </div>
+        <div class="bg-main-card border p-1">
+        <img alt="Ally And Co Online Shop" loading="lazy" width="500" height="500" decoding="async" data-nimg="1" style="color:transparent" src="assets/image/allyco.webp"/>
+        <div class="p-3 grid gap-3">
+        <h1 class="lg:text-xl text-xs font-light" style="color:white">
+        Ally And Co Online Shop
+        </h1>
+        <a href="https://allyandco.id/" target="_blank">
+        <button class="inline-flex items-center justify-center whitespace-nowrap rounded-md font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 border border-input bg-background shadow-sm hover:bg-accent hover:text-accent-foreground h-9 px-4 py-2 text-xs lg:text-base">
+        VISIT
+        </button>
+        </a>
+        </div>
+        </div>
+        <div class="bg-main-card border p-1">
+        <img alt="Wirguns Jewelry" loading="lazy" width="500" height="500" decoding="async" data-nimg="1" style="color:transparent" src="assets/image/wirguns-jewelry.webp"/>
+        <div class="p-3 grid gap-3">
+        <h1 class="lg:text-xl text-xs font-light" style="color:white">
+        Wirguns Jewelry Shop
+        </h1>
+        <a href="https://wirguns.github.io/jewelry/" target="_blank">
+        <button class="inline-flex items-center justify-center whitespace-nowrap rounded-md font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 border border-input bg-background shadow-sm hover:bg-accent hover:text-accent-foreground h-9 px-4 py-2 text-xs lg:text-base">
+        VISIT
+        </button>
+        </a>
+        </div>
+        </div>
+        </div>
+    </section>
+    <!-- portfolio section ends here -->
+    <div id="project" class="min-h-screen pt-32">
+      <div class="w-full px-4 lg:px-0 max-w-7xl mx-auto h-full">
+      <div>
+      <div class="text-center pb-2 lg:text-4xl text-xl text-slate-200" style="font-weight: bold;">
+              My Games <i class="fa-brands fa-phoenix-framework"></i>
+      </div>
+      <p style="color: white;text-align: center;">I build these Games only for entertainment and fun. Enjoy</p>
+      <div class="w-full px-4 lg:px-0 max-w-7xl mx-auto h-full">
+      <div class="border-b border-b-slate-50/10 mt-3  mx-auto ">
+      </div>
+      </div>
+      </div>
+      <div class="mt-10 grid lg:grid-cols-3 grid-cols-2 gap-4">
+      <div class="bg-main-card border p-1">
+      <img alt="Flappy Bird Game" loading="lazy" width="500" height="500" decoding="async" data-nimg="1" style="color:transparent" src="assets/image/flappy-bird.webp"/>
+      <div class="p-3 grid gap-3">
+      <h1 class="lg:text-xl text-xs font-light" style="color:white">
+      Flappy Bird Game
+      </h1>
+      <a href="19-Flappy-Bird-Game/index.html" target="_blank">
+      <button class="inline-flex items-center justify-center whitespace-nowrap rounded-md font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 border border-input bg-background shadow-sm hover:bg-accent hover:text-accent-foreground h-9 px-4 py-2 text-xs lg:text-base">
+      PLAY
+      </button>
+      </a>
+      </div>
+      </div>
+      <div class="bg-main-card border p-1">
+      <img alt="Crossy Road Game" loading="lazy" width="500" height="500" decoding="async" data-nimg="1" style="color:transparent" src="assets/image/crossy-road.webp"/>
+      <div class="p-3 grid gap-3">
+      <h1 class="lg:text-xl text-xs font-light" style="color:white">
+      Crossy Road Game
+      </h1>
+      <a href="20-Crossy-Road-Game/index.html" target="_blank">
+      <button class="inline-flex items-center justify-center whitespace-nowrap rounded-md font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 border border-input bg-background shadow-sm hover:bg-accent hover:text-accent-foreground h-9 px-4 py-2 text-xs lg:text-base">
+      PLAY
+      </button>
+      </a>
+      </div>
+      </div>
+      <div class="bg-main-card border p-1">
+      <img alt="Tower Blocks Game" loading="lazy" width="500" height="500" decoding="async" data-nimg="1" style="color:transparent" src="assets/image/tower-blocks.webp"/>
+      <div class="p-3 grid gap-3">
+      <h1 class="lg:text-xl text-xs font-light" style="color:white">
+      Tower Blocks
+      </h1>
+      <a href="06-Tower-Blocks/index.html" target="_blank">
+      <button class="inline-flex items-center justify-center whitespace-nowrap rounded-md font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 border border-input bg-background shadow-sm hover:bg-accent hover:text-accent-foreground h-9 px-4 py-2 text-xs lg:text-base">
+      PLAY
+      </button>
+      </a>
+      </div>
+      </div>
+      <div class="bg-main-card border p-1">
+      <img alt="Breakout Game" loading="lazy" width="500" height="500" decoding="async" data-nimg="1" style="color:transparent" src="assets/image/breakout-game.webp"/>
+      <div class="p-3 grid gap-3">
+      <h1 class="lg:text-xl text-xs font-light" style="color:white">
+      Breakout Game
+      </h1>
+      <a href="04-Breakout-Game/index.html" target="_blank">
+      <button class="inline-flex items-center justify-center whitespace-nowrap rounded-md font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 border border-input bg-background shadow-sm hover:bg-accent hover:text-accent-foreground h-9 px-4 py-2 text-xs lg:text-base">
+      PLAY
+      </button>
+      </a>
+      </div>
+      </div>
+      <div class="bg-main-card border p-1">
+      <img alt="Maze Game" loading="lazy" width="500" height="500" decoding="async" data-nimg="1" style="color:transparent" src="assets/image/maze-game.webp"/>
+      <div class="p-3 grid gap-3">
+      <h1 class="lg:text-xl text-xs font-light" style="color:white">
+      Maze Game
+      </h1>
+      <a href="09-Tilting-Maze-Game/index.html" target="_blank">
+      <button class="inline-flex items-center justify-center whitespace-nowrap rounded-md font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 border border-input bg-background shadow-sm hover:bg-accent hover:text-accent-foreground h-9 px-4 py-2 text-xs lg:text-base">
+      PLAY
+      </button>
+      </a>
+      </div>
+      </div>
+      <div class="bg-main-card border p-1">
+      <img alt="Quizz Game" loading="lazy" width="500" height="500" decoding="async" data-nimg="1" style="color:transparent" src="assets/image/quizz-game.png"/>
+      <div class="p-3 grid gap-3">
+      <h1 class="lg:text-xl text-xs font-light" style="color:white">
+      Quizz Game
+      </h1>
+      <a href="27-Quiz-Game/index.html" target="_blank">
+      <button class="inline-flex items-center justify-center whitespace-nowrap rounded-md font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 border border-input bg-background shadow-sm hover:bg-accent hover:text-accent-foreground h-9 px-4 py-2 text-xs lg:text-base">
+      PLAY
+      </button>
+      </a>
+      </div>
+      </div>
+      <div class="bg-main-card border p-1">
+        <img alt="Minesweeper Game" loading="lazy" width="500" height="500" decoding="async" data-nimg="1" style="color:transparent" src="assets/image/minesweeper-game.webp"/>
+        <div class="p-3 grid gap-3">
+        <h1 class="lg:text-xl text-xs font-light" style="color:white">
+        Minesweeper Game
+        </h1>
+        <a href="05-Minesweeper-Game/index.html" target="_blank">
+        <button class="inline-flex items-center justify-center whitespace-nowrap rounded-md font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 border border-input bg-background shadow-sm hover:bg-accent hover:text-accent-foreground h-9 px-4 py-2 text-xs lg:text-base">
+        PLAY
+        </button>
+        </a>
+        </div>
+        </div>
+        <div class="bg-main-card border p-1">
+          <img alt="Candy Crush game" loading="lazy" width="500" height="500" decoding="async" data-nimg="1" style="color:transparent" src="assets/image/candy-crush-game.webp"/>
+          <div class="p-3 grid gap-3">
+          <h1 class="lg:text-xl text-xs font-light" style="color:white">
+          Candy Crush Game
+          </h1>
+          <a href="01-Candy-Crush-Game/index.html" target="_blank">
+          <button class="inline-flex items-center justify-center whitespace-nowrap rounded-md font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 border border-input bg-background shadow-sm hover:bg-accent hover:text-accent-foreground h-9 px-4 py-2 text-xs lg:text-base">
+          PLAY
+          </button>
+          </a>
+          </div>
+          </div>
+      </div>
+  </section>
+  <!-- games project end -->
+
+    <!-- testimonial section starts  -->
+    <section class="testimonial mt-5 pt-5" id="testimonial">
+      <div class="row justify-content-evenly">
+        <div class="col-md-4 col-10" data-aos="slide-right">
+          <img src="assets/images/tastimonials-img.png" class="img-fluid" alt="" />
+        </div>
+        <div class="col-md-6 col-10 mt-5" data-aos="slide-left">
+          <div class="heading">
+            <small>Testimonials</small>
+            <h3>Happy Clients Feedback</h3>
+            <!-- here we will use carousel element from bootstrap -->
+            <div
+              id="carouselExampleControls"
+              class="carousel slide"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="row justify-content-evenly">
+                    <div class="col-2 text-center">
+                      <i class="bi bi-quote"></i>
+                    </div>
+                    <div class="col-10">
+                      <p class="text-muted">
+                        Pembuatan websitenya sangat bagus dan keren, saya sangat puas dengan hasilnya, animasi dan transisinya sangat menarik untuk dilihat. Dari SEO website tersebut mampu meningkatkan traffic website saya sehingga lebih banyak pengunjung.
+                      </p>
+                      <h4>I Gede Wiraguna</h4>
+                      <small class="fs-6 text-muted">Owner of Jewelry Shop</small>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="row justify-content-evenly">
+                    <div class="col-2 text-center">
+                      <i class="bi bi-quote"></i>
+                    </div>
+                    <div class="col-10">
+                      <p class="text-muted">
+                        Saya suka dengan hasilnya, website ini membantu saya meningkatkan penjualan karena pelanggan banyak yang suka. Terimakasih atas bantuan dan kerja kerasnya.
+                      </p>
+                      <h4>Fadillah</h4>
+                      <small class="fs-6 text-muted">Owner Dapur Mama Dila</small>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="row justify-content-evenly">
+                    <div class="col-2 text-center">
+                      <i class="bi bi-quote"></i>
+                    </div>
+                    <div class="col-10">
+                      <p class="text-muted">
+                        Anak Magang ini sangat pintar dan bisa membuat design website yang bagus dan user friendly dalam pengembangannya, saya sangat puas dengan hasilnya.
+                      </p>
+                      <h4>Selvy Inawati</h4>
+                      <small class="fs-6 text-muted">Kepala Rupbasan Kemenkumham</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <button
+                class="nextprev-btn rounded-pill prev-btn"
+                type="button"
+                data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev"
+              >
+                <i class="bi bi-arrow-left-circle-fill prev"></i>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="nextprev-btn rounded-pill next-btn"
+                type="button"
+                data-bs-target="#carouselExampleControls"
+                data-bs-slide="next"
+              >
+                <i class="bi bi-arrow-right-circle-fill next"></i>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- testimonial ends here -->
+
+    <!-- blog section starts -->
+    <section class="blog mt-5 pb-5" id="blog">
+      <div class="heading text-center pt-5">
+        <small><i class="fa-solid fa-user-check"></i></small>
+        <h3>My Background</h3>
+      </div>
+      <div class="row justify-content-evenly px-4 mt-4" data-aos="fade-up">
+        <div class="blogpost col-md-4 col-10 mt-2 mt-md-0 game all">
+          <div class="card">
+            <img
+              src="assets/images/wisuda.webp"
+              class="card-img-top rounded-4"
+              alt="..."
+            />
+            <div class="card-body px-4">
+              <small>Education</small
+              ><span class="ms-3">Jan, 2020 - Jun, 2024</span>
+              <h4 class="card-title">
+                <a href="https://stikom-bali.ac.id/" target="_blank">ITB STIKOM BALI</a>
+                <p>(S.Bns)</p>
+              </h4>
+              <p class="text-muted">
+                I'm graduated colleger from ITB STIKOM BALI, with GPA: 3.69/4.00 and predicate Cumlaude. Also i got the Best Final Assignment project. 
+              </p>
+              <a href="#" class="read-more-btn link" data-bs-toggle="modal" data-bs-target="#exampleModal1">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="blogpost col-md-4 col-10 mt-5 mt-md-0 website all">
+          <div class="card">
+            <img
+              src="assets/images/koding.webp"
+              class="card-img-top rounded-4"
+              alt="..."
+            />
+            <div class="card-body px-4">
+              <small>Fullstack Developer</small
+              ><span class="ms-3">Nov, 2024 - Feb, 2025</span>
+              <h4 class="card-title">
+                <a href="https://www.kodingakademi.id/" target="_blank">KODING AKADEMI</a>
+              </h4>
+              <p class="text-muted">
+                I joined a Bootcamp Coding Courses to upgrade my skills especially in Fullstack Developer and Software Engineer. I've learned a lot from this experience in the world of IT and Web Developer to be a skilled digital talents.
+              </p>
+              <a href="#" class="read-more-btn link" data-bs-toggle="modal" data-bs-target="#exampleModal2">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="blogpost col-md-4 col-10 mt-5 mt-md-0 webapp all">
+          <div class="card">
+            <img
+              src="assets/images/intern.webp"
+              class="card-img-top rounded-4"
+              alt="..."
+            />
+            <div class="card-body px-4">
+              <small>Internship</small
+              ><span class="ms-3"> Oct 17,2022 - Jul 07,2023</span>
+              <h4 class="card-title">
+                <a href="https://www.rupbasandenpasar.com/" target="_blank">RUPBASAN KEMENKUMHAM BALI</a>
+              </h4>
+              <p class="text-muted">
+                I took a part in an internship at Rumah Penyimpanan Benda Sitaan Negara Kelas I Denpasar (Rupbasan) KEMENKUMHAM BALI as a Web Development using CRUD (Create, Read, Update, Delete) method to make forms and reports to Database.
+              </p>
+              <a href="#" class="read-more-btn link" data-bs-toggle="modal" data-bs-target="#exampleModal3">Read More</a>
+            </div>
+          </div>
+        </div>
+        <!-- here we will make modals if Read more link is clicked the modal will popup -->
+        <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              
+                <button type="button" class="btn-c rounded-pill" data-bs-dismiss="modal"><i class="bi bi-x-circle-fill"></i></button>
+              
+              <div class="modal-body px-4">
+                <div class="img">
+                  <img src="assets/images/wisuda.webp" class="img-fluid" alt="">
+                </div>
+                <div class="content mt-3">
+                  <small>ITB STIKOM BALI</small
+                    ><span class="text-muted ms-2">Jan, 2020 - Jun, 2024</span>
+                  <h4 class="card-title mt-3">Bachelor's Degree in Digital Marketing (S.Bns)</h4>
+                  <div class="social-links mt-4">
+                      <button href="" class="rounded-pill dribble">
+                        <a href="https://www.instagram.com/denisryna/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                      </button>
+                      <button href="" class="rounded-pill whatsapp">
+                        <a href="https://api.whatsapp.com/send/?phone=6282340987518&amp;text&amp;type=phone_number&amp;app_absent=0" target="_blank"><i class="bi bi-whatsapp"></i></a>
+                      </button>
+                      <button href="" class="rounded-pill behance">
+                        <a href="https://www.linkedin.com/in/denis-arya-buana/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                      </button>
+                    </div>
+                  <p class="text-muted mt-3">I just graduated from ITB STIKOM BALI, with GPA: 3.69/4.00 and predicate Cumlaude. Also i got the Best Final Assignment project. During my studies, i actively participates in organization for about 3 years as a coordinator member of Public Relations.</p>
+                </div>
+              </div>
+              <div class="heading px-2">
+                <h3 class="fs-3 ms-3">Leave A Comment</h3>
+              </div>
+              <div class="contact-form ms-3 mt-3 pb-4 px-2">
+                <div class="mb-3">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="exampleFormControlInput1"
+                    placeholder="Name"
+                  />
+                </div>
+                <div class="mb-3">
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="exampleFormControlInput1"
+                    placeholder="E-mail"
+                  />
+                </div>
+                <div class="mb-3">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="exampleFormControlInput1"
+                    placeholder="Mobile No."
+                  />
+                </div>
+                <div class="mb-3">
+                  <textarea
+                    class="form-control"
+                    id="exampleFormControlTextarea1"
+                    placeholder="Message"
+                    rows="5"
+                  ></textarea>
+                </div>
+                <button class="c-btn h-btn mt-3 py-2 px-4 rounded-pill">
+                  Submit
+                </button>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              
+                <button type="button" class="btn-c rounded-pill" data-bs-dismiss="modal"><i class="bi bi-x-circle-fill"></i></button>
+              
+              <div class="modal-body px-4">
+                <div class="img">
+                  <img src="assets/images/koding.webp" class="img-fluid" alt="">
+                </div>
+                <div class="content mt-3">
+                  <small>Koding Akademi</small
+                  ><span class="text-muted ms-2 ms-md-0"> Nov, 2024 - Feb, 2025</span>
+                  <h4 class="card-title mt-3">Fullstack Developer</h4>
+                  <div class="social-links mt-4">
+                      <button href="" class="rounded-pill dribble">
+                        <a href="https://www.instagram.com/denisryna/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                      </button>
+                      <button href="" class="rounded-pill whatsapp">
+                        <a href="https://api.whatsapp.com/send/?phone=6282340987518&amp;text&amp;type=phone_number&amp;app_absent=0" target="_blank"><i class="bi bi-whatsapp"></i></a>
+                      </button>
+                      <button href="" class="rounded-pill behance">
+                        <a href="https://www.linkedin.com/in/denis-arya-buana/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                      </button>
+                    </div>
+                  <p class="text-muted mt-3">I joined a Bootcamp Coding Courses to upgrade my skills especially in Fullstack Developer and Software Engineer. I've learned a lot from this experience in the world of IT and Web Developer to be a skilled digital talents.</p>
+                </div>
+              </div>
+              <div class="heading px-2">
+                <h3 class="fs-3 ms-3">Leave A Comment</h3>
+              </div>
+              <div class="contact-form ms-3 mt-3 pb-4 px-2">
+                <div class="mb-3">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="exampleFormControlInput1"
+                    placeholder="Name"
+                  />
+                </div>
+                <div class="mb-3">
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="exampleFormControlInput1"
+                    placeholder="E-mail"
+                  />
+                </div>
+                <div class="mb-3">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="exampleFormControlInput1"
+                    placeholder="Mobile No."
+                  />
+                </div>
+                <div class="mb-3">
+                  <textarea
+                    class="form-control"
+                    id="exampleFormControlTextarea1"
+                    placeholder="Message"
+                    rows="5"
+                  ></textarea>
+                </div>
+                <button class="c-btn h-btn mt-3 py-2 px-4 rounded-pill">
+                  Submit
+                </button>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              
+                <button type="button" class="btn-c rounded-pill" data-bs-dismiss="modal"><i class="bi bi-x-circle-fill"></i></button>
+              
+              <div class="modal-body px-4">
+                <div class="img">
+                  <img src="assets/images/intern.webp" class="img-fluid" alt="">
+                </div>
+                <div class="content mt-3">
+                  <small>Internship</small
+                    ><span class="text-muted ms-2 ms-md-0"> Oct 17,2022 - Jul 07,2023</span>
+                  <h4 class="card-title mt-3">RUPBASAN KEMENKUMHAM BALI</h4>
+                  <div class="social-links mt-4">
+                    <button href="" class="rounded-pill dribble">
+                      <a href="https://www.instagram.com/denisryna/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    </button>
+                    <button href="" class="rounded-pill whatsapp">
+                      <a href="https://api.whatsapp.com/send/?phone=6282340987518&amp;text&amp;type=phone_number&amp;app_absent=0" target="_blank"><i class="bi bi-whatsapp"></i></a>
+                    </button>
+                    <button href="" class="rounded-pill behance">
+                      <a href="https://www.linkedin.com/in/denis-arya-buana/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    </button>
+                  </div>
+                  <p class="text-muted mt-3">I took a part in an internship at Rumah Penyimpanan Benda Sitaan Negara Kelas I Denpasar (Rupbasan) KEMENKUMHAM BALI as a Web Development using CRUD (Create, Read, Update, Delete) method to make forms and reports to Database. Working with the wider development team, manage website design and web responsive, develop government, website called SISUMAKER, manage Database and trouble shooting.
+                    </p>
+                </div>
+              </div>
+              <div class="heading px-2">
+                <h3 class="fs-3 ms-3">Leave A Comment</h3>
+              </div>
+              <div class="contact-form ms-3 mt-3 pb-4 px-2">
+                <div class="mb-3">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="exampleFormControlInput1"
+                    placeholder="Name"
+                  />
+                </div>
+                <div class="mb-3">
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="exampleFormControlInput1"
+                    placeholder="E-mail"
+                  />
+                </div>
+                <div class="mb-3">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="exampleFormControlInput1"
+                    placeholder="Mobile No."
+                  />
+                </div>
+                <div class="mb-3">
+                  <textarea
+                    class="form-control"
+                    id="exampleFormControlTextarea1"
+                    placeholder="Message"
+                    rows="5"
+                  ></textarea>
+                </div>
+                <button class="c-btn h-btn mt-3 py-2 px-4 rounded-pill">
+                  Submit
+                </button>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- blog section ends here -->
+
+    <!-- contact section starts -->
+    <section class="contact py-5" id="contact">
+      <div class="heading text-center">
+        <small>Get in Touch</small>
+        <h3>Feel Free to Contact</h3>
+      </div>
+      <div class="row justify-content-evenly mt-5">
+        <div class="col-md-5 col-10 contact-details" data-aos="slide-right">
+          <div class="row justify-content-evenly">
+            <div class="col-1">
+              <i class="bi bi-geo-alt-fill"></i>
+            </div>
+            <div class="col-11">
+              <p><a href="https://maps.app.goo.gl/oxD9Gf1Bg2vfoQ7r9" target="_blank">Melrose Place, Sanur, Denpasar, Bali</a></p>
+            </div>
+          </div>
+          <div class="row justify-content-evenly">
+            <div class="col-1">
+              <i class="bi bi-telephone-fill"></i>
+            </div>
+            <div class="col-11">
+              <p><a href="https://api.whatsapp.com/send/?phone=6282340987518&amp;text&amp;type=phone_number&amp;app_absent=0" target="_blank">+62 823-4098-7518</a></p>
+            </div>
+          </div>
+          <div class="row justify-content-evenly">
+            <div class="col-1">
+              <i class="fa-solid fa-envelope-circle-check"></i>
+            </div>
+            <div class="col-11">
+              <p><a href="https://mail.google.com/mail/u/0/#inbox" target="_blank">denisryana2012@gmail.com</a></p>
+            </div>
+          </div>
+          <div class="row justify-content-evenly">
+            <div class="col-1">
+              <i class="fa-brands fa-instagram"></i>
+            </div>
+            <div class="col-11">
+              <p><a href="https://www.instagram.com/denisryna/" target="_blank">@denisryna</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-5 col-10 mt-3 mt-md-0" data-aos="slide-left">
+          <div class="contact-form">
+            <div class="mb-3">
+              <input
+                type="text"
+                class="form-control"
+                id="exampleFormControlInput1"
+                placeholder="Name"
+              />
+            </div>
+            <div class="mb-3">
+              <input
+                type="email"
+                class="form-control"
+                id="exampleFormControlInput1"
+                placeholder="E-mail"
+              />
+            </div>
+            <div class="mb-3">
+              <input
+                type="text"
+                class="form-control"
+                id="exampleFormControlInput1"
+                placeholder="Mobile No."
+              />
+            </div>
+            <div class="mb-3">
+              <textarea
+                class="form-control"
+                id="exampleFormControlTextarea1"
+                placeholder="Message"
+                rows="5"
+              ></textarea>
+            </div>
+            <button class="c-btn h-btn mt-3 py-3 px-5 rounded-pill" style="background-color: orange;">
+              <i class="fa-solid fa-share"></i> Submit
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- contact section ends here -->
+
+      <!-- now we will make back to top button when user click on it it will be redirected to top page  -->
+    <div id="contact" class="pt-32 min-h-screen">
+      <div class="w-full px-4 lg:px-0 max-w-7xl mx-auto h-full">
+      <div>
+      <div class="text-center pb-2 lg:text-4xl text-xl text-slate-200" style="font-weight: bold;">
+      <i class="fa-brands fa-connectdevelop"></i> Connect with me
+      </div>
+      <div class="w-full px-4 lg:px-0 max-w-7xl mx-auto h-full">
+      <div class="border-b border-b-slate-50/10 mt-3  mx-auto ">
+      </div>
+      </div>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mt-10">
+      <div id="card_medsos" class="w-full">
+      <div class="outline_card">
+      <div class="content-outline relative p-2 flex flex-col justify-between h-full">
+      <h3 class="font-semibold border-l-2 pl-2 text-3xl mt-3 border-l-primary-main text-slate-400">
+      denisryana2012@gmail.com
+      </h3>
+      <div>
+      <a href="denisryana2012@gmail.com" class="btn_content" target="_blank">
+      <button class="justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 border border-input bg-background shadow-sm hover:bg-accent hover:text-accent-foreground h-9 py-2 flex items-center gap-2 px-5">
+      <div>
+      VISIT
+      </div>
+      </button>
+      </a>
+      <div class=" absolute right-1 bottom-1 h-3 w-3 border border-r border-r-slate-50/20 border-b-slate-50/20 border-b ">
+      </div>
+      </div>
+      </div>
+      </div>
+      <div class="container w-full bg-main-card">
+      <div class=" w-full bg-main-card/10 p-5">
+      <div class="content  flex flex-col items-center">
+      <img alt="Email" loading="lazy" width="120" height="80" decoding="async" style="color:transparent" src="/assets/icons/email.webp"/>
+      <h2 class="uppercase text-slate-500">
+      Email
+      </h2>
+      </div>
+      </div>
+      </div>
+      </div>
+      <div id="card_medsos" class="w-full">
+      <div class="outline_card">
+      <div class="content-outline relative p-2 flex flex-col justify-between h-full">
+      <h3 class="font-semibold border-l-2 pl-2 text-3xl mt-3 border-l-primary-main text-slate-400">Denis
+      </h3>
+      <div>
+      <a href="https://github.com/DENA-ID" class="btn_content" target="_blank">
+      <button class="justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 border border-input bg-background shadow-sm hover:bg-accent hover:text-accent-foreground h-9 py-2 flex items-center gap-2 px-5">
+      <div>VISIT
+      </div>
+      </button>
+      </a>
+      <div class=" absolute right-1 bottom-1 h-3 w-3 border border-r border-r-slate-50/20 border-b-slate-50/20 border-b ">
+      </div>
+      </div>
+      </div>
+      </div>
+      <div class="container w-full bg-main-card">
+      <div class=" w-full bg-main-card/10 p-5">
+      <div class="content  flex flex-col items-center">
+      <img alt="Github" loading="lazy" width="120" height="80" style="color:transparent" src="/assets/icons/github.webp"/>
+      <h2 class="uppercase text-slate-500">Github</h2>
+      </div>
+      </div>
+      </div>
+      </div>
+      <div id="card_medsos" class="w-full">
+      <div class="outline_card">
+      <div class="content-outline relative p-2 flex flex-col justify-between h-full">
+      <h3 class="font-semibold border-l-2 pl-2 text-3xl mt-3 border-l-primary-main text-slate-400 ">+62 823-4098-7518</h3>
+      <div>
+      <a href="https://api.whatsapp.com/send/?phone=6282340987518&amp;text&amp;type=phone_number&amp;app_absent=0" class="btn_content" target="_blank">
+      <button class="justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 border border-input bg-background shadow-sm hover:bg-accent hover:text-accent-foreground h-9 py-2 flex items-center gap-2 px-5">
+      <div>VISIT</div>
+      </button>
+      </a>
+      <div class=" absolute right-1 bottom-1 h-3 w-3 border border-r border-r-slate-50/20 border-b-slate-50/20 border-b ">
+      </div>
+      </div>
+      </div>
+      </div>
+      <div class="container w-full bg-main-card">
+      <div class=" w-full bg-main-card/10 p-5">
+      <div class="content  flex flex-col items-center">
+      <img alt="WhatsApp" loading="lazy" width="120" height="80" decoding="async" style="color:transparent" src="/assets/icons/whatsapp.webp"/>
+      <h2 class="uppercase text-slate-500">WhatsApp</h2>
+      </div>
+      </div>
+      </div>
+      </div>
+      <div id="card_medsos" class="w-full">
+      <div class="outline_card">
+      <div class="content-outline relative p-2 flex flex-col justify-between h-full">
+      <h3 class="font-semibold border-l-2 pl-2 text-3xl mt-3 border-l-primary-main text-slate-400 ">
+      Denis
+      </h3>
+      <div>
+      <a href="https://www.linkedin.com/in/denis-arya-buana/" class="btn_content" target="_blank">
+      <button class="justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 border border-input bg-background shadow-sm hover:bg-accent hover:text-accent-foreground h-9 py-2 flex items-center gap-2 px-5">
+      <div>
+      VISIT
+      </div>
+      </button>
+      </a>
+      <div class=" absolute right-1 bottom-1 h-3 w-3 border border-r border-r-slate-50/20 border-b-slate-50/20 border-b">
+      </div>
+      </div>
+      </div>
+      </div>
+      <div class="container w-full bg-main-card">
+      <div class=" w-full bg-main-card/10 p-5">
+      <div class="content  flex flex-col items-center">
+      <img alt="Linkedin" loading="lazy" width="120" height="80" decoding="async" style="color:transparent" src="/assets/icons/linkedin.webp"/>
+      <h2 class="uppercase text-slate-500">
+      Linkedin
+      </h2>
+      </div>
+      </div>
+      </div>
+      </div>
+      <div id="card_medsos" class="w-full">
+      <div class="outline_card">
+      <div class="content-outline relative p-2 flex flex-col justify-between h-full">
+      <h3 class="font-semibold border-l-2 pl-2 text-3xl mt-3 border-l-primary-main text-slate-400 ">
+      @denisryna
+      </h3>
+      <div>
+      <a href="https://www.instagram.com/denisryna//?hl=en" class="btn_content" target="_blank">
+      <button class="justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 border border-input bg-background shadow-sm hover:bg-accent hover:text-accent-foreground h-9 py-2 flex items-center gap-2 px-5">
+      <div>
+      VISIT
+      </div>
+      </button>
+      </a>
+      <div class=" absolute right-1 bottom-1 h-3 w-3 border border-r border-r-slate-50/20 border-b-slate-50/20 border-b ">
+      </div>
+      </div>
+      </div>
+      </div>
+      <div class="container w-full bg-main-card">
+      <div class=" w-full bg-main-card/10 p-5">
+      <div class="content  flex flex-col items-center">
+      <img alt="Instagram" loading="lazy" width="120" height="80" decoding="async" style="color:transparent" src="/assets/icons/instagram.webp"/>
+      <h2 class="uppercase text-slate-500 ">
+      Instagram
+      </h2>
+      </div>
+      </div>
+      </div>
+      </div>
+      <div id="card_medsos" class="w-full">
+      <div class="outline_card">
+      <div class="content-outline relative p-2 flex flex-col justify-between h-full">
+      <h3 class="font-semibold border-l-2 pl-2 text-3xl mt-3 border-l-primary-main text-slate-400 ">
+      Denis
+      </h3>
+      <div>
+      <a href="https://web.facebook.com/denis.aryabuana.9" class="btn_content" target="_blank">
+      <button class="justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 border border-input bg-background shadow-sm hover:bg-accent hover:text-accent-foreground h-9 py-2 flex items-center gap-2 px-5">
+      <div>
+      VISIT
+      </div>
+      </button>
+      </a>
+      <div class=" absolute right-1 bottom-1 h-3 w-3 border border-r border-r-slate-50/20 border-b-slate-50/20 border-b ">
+      </div>
+      </div>
+      </div>
+      </div>
+      <div class="container w-full bg-main-card">
+      <div class=" w-full bg-main-card/10 p-5">
+      <div class="content  flex flex-col items-center">
+      <img alt="Facebook" loading="lazy" width="120" height="80" decoding="async" style="color:transparent" src="/assets/icons/facebook.webp"/>
+      <h2 class="uppercase text-slate-500 ">
+      Facebook
+      </h2>
+      </div>
+      </div>
+      </div>
+      </div>
+      </div>
+      </div>
+      </div>
+    <!-- footer section starts  -->
+    <footer class="text-center text-muted py-4">
+      <h3 class="text-white pt-4" data-aos="fade-up">Portfolio</h3>
+      <div class="link-group mt-5" data-aos="fade-up">
+        <a href="#home">Home</a>
+        <div class="vr"></div>
+        <a href="#about">About</a>
+        <div class="vr"></div>
+        <a href="#service">Service</a>
+        <div class="vr"></div>
+        <a href="#portfolio">Portfolio</a>
+        <div class="vr"></div>
+        <a href="#blog">Blog</a>
+        <div class="vr"></div>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="social-links mt-5" data-aos="fade-up">
+        <button href="" class="rounded-pill dribble">
+          <a href="https://www.instagram.com/denisryna/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        </button>
+        <button href="" class="rounded-pill whatsapp">
+          <a href="https://api.whatsapp.com/send/?phone=6282340987518&amp;text&amp;type=phone_number&amp;app_absent=0" target="_blank"><i class="bi bi-whatsapp"></i></a>
+        </button>
+        <button href="" class="rounded-pill behance">
+          <a href="https://www.linkedin.com/in/denis-arya-buana/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+        </button>
+      </div>
+      <hr class="text-muted my-4" />
+
+      <p>@ 2025 Denis Arya Buana - Portfolio | All Rights Reserved.</p>
+    </footer>
+    <!-- footer section ends here -->
+
+      <!-- bootstrap javascript cdn link  -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- AOS library javascript link  -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      // initializing AOS library
+      AOS.init({
+        duration: 1000,
+        offset: 50,
+      });
+    </script>
+    <!-- custom js file linking -->
+    <script src="js/script.js"></script>
+    <script src="js/webpack-1.js" async=""></script>
+    <script src="js/module.js" async=""></script>
+    <script src="js/main-app.js" async=""></script>
+    <script src="js/layout.js" async=""></script>
+    <script src="js/page.js" async=""></script>
+  </body>
+</html>
